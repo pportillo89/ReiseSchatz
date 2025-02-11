@@ -1,0 +1,67 @@
+<!doctype html> 
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<!-- TemplateBeginEditable name="doctitle" -->
+		<title>ReiseSchatz | Travel Blog</title>
+		<!-- TemplateEndEditable -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="../favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="../css/travelBlog.css" >
+		<link rel="stylesheet" href="../img/icons/font/bootstrap-icons.css">
+		<script src="../js/zeit.js"></script>
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+	</head>
+
+	<body onload="ZeitAnzeigen()">
+		<div id="wrapper">
+			<header class="header">
+				<div class="container">
+					<div id="logo"><a href="../index.html"></a></div>
+					<div class="nameSeite"><a href="../index.html"><img alt="" src="../img/logo/name.png" ></a></div>
+					<nav id="navigation">
+						<a href="../index.html"><span class="text_menu">Startseite</span> <i class="bi bi-houses"></i></a>
+						<a href="../blog.html"><span class="text_menu">Blog</span>  <i class="bi bi-airplane"></i></a>
+						<a href="../uber_mich.html"><span class="text_menu">Über mich</span> <i class="bi bi-person"></i></a>
+						<a href="../kontakt.html"><span class="text_menu">Kontakt</span> <i class="bi bi-envelope"></i></a>
+					</nav>
+					
+					<nav id="hamburger_nav">
+						<a href="#menue-oeffnen_2"><i class= "bi bi-list"></i></a>
+						<nav id="menue-oeffnen_2">
+							<a href="#" class="close-btn">x</a>
+							<a href="../index.html">Startseite <i class="bi bi-houses"></i></a>
+							<a href="../blog.html">Blog <i class="bi bi-airplane"></i></a>
+							<a href="../uber_mich.html">Über mich <i class="bi bi-person"></i></a>
+							<a href="../kontakt.html">Kontakt <i class="bi bi-envelope"></i></a>
+						</nav>
+					</nav>
+				</div>
+			</header>
+			<!-- TemplateBeginEditable name="moreInfo" -->
+			
+			<!-- TemplateEndEditable -->
+			
+			<div class="content">
+				<!-- TemplateBeginEditable name="contentVor" -->content
+				<!-- TemplateEndEditable -->
+					
+			</div>
+			<footer class="footer"><!-- TemplateBeginEditable name="footerVor" -->
+				<ul class="listIcon">
+                      <li class="icon"><a href ="https://www.gmail.com"><img alt="" src="img/icons/envelope.svg" >E-mail</a></li>
+                      <li class="icon"><a href ="https://www.facebook.com"><img alt="" src="img/icons/facebook.svg" >Facebook</a></li>
+                      <li class="icon"><a href ="https://www.instagram.com"><img alt="" src="img/icons/instagram.svg">Instagram</a></li>
+                  </ul>
+				<span id="dat_uhr">Datum </span>
+				
+				<!-- TemplateEndEditable -->
+				
+			</footer>
+		</div>
+		<!-- TemplateBeginEditable name="script" -->
+		<!-- TemplateEndEditable -->
+		
+	</body>
+</html>

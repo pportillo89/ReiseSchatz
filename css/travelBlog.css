@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document für Travel Blog*/
+
+/*####Farbe definition#####*/
+/*
+	#f13e37 : rot
+	#d8e02b : hellesgrün
+	#5bc3b8 : aqua
+	#ffffff : weiss
+	#888888 : gris
+*/
+
+*{box-sizing: border-box;}
+
+@font-face{
+	src:url("../fonts/Caveat/Caveat-VariableFont_wght.ttf");
+	font-family: webkurs;
+}
+
+body{font-family:  Verdana;
+/*background-color: rgba(139,4,241,0.43);*/}
+
+#wrapper{/*background-color: rgba(243,9,13,0.40);*/
+padding: 0.625rem;
+margin: auto;
+max-width: 75rem;
+padding-top: 0;
+position: relative;
+border: 1px solid rgba(97,97,97,1.00);
+border-radius: 5px;
+box-shadow: 0px 0px 10px 0px #888888;
+}
+
+.container{max-width: 75rem;
+width: 100%;
+height: 100px;
+display: flex;
+flex-wrap: wrap;}
+
+/*########### HEADER #################*/
+
+.header{/*background-color: rgba(22,7,217,0.54);*/
+top: 0;
+position: relative;}
+
+#logo{
+/*background-color: rgba(12,180,110,0.52);*/
+background-image: url("../img/logo/logo.png");
+background-repeat: no-repeat;
+background-size: cover;
+width: 100px;
+height: 100px;
+margin-top: 10px;}
+
+.nameSeite{width: 18.75rem;
+height: 6.25rem;
+text-align: center;
+padding-top: 1rem;}
+
+/*############## NAVIGATION ##############*/
+
+#navigation{/*background-color: rgba(239,99,10,0.9)*/
+position: absolute;
+width:60%;
+display: flex;
+padding-top: 3rem;
+margin-left: 30rem;
+justify-content:space-between;
+gap: 1rem;
+padding: 3rem;}
+
+#navigation a{color: #000000;
+text-decoration: none;}
+
+#navigation a:hover{color:#5bc3b8; }
+
+.one-time{padding-top: 1rem;}
+
+
+#hamburger_nav{
+padding: 1rem;
+display: none;
+text-align: right;
+position: fixed;
+top: 0;
+right: 0;}
+
+@media(orientation:portrait){
+	#navigation{display: none;}
+	#hamburger_nav{display: block;
+	width: 30%;}
+
+
+	.bi-list{font-size: 2rem;
+	color: #000;}
+
+	#menue-oeffnen_2{display: none;
+	position: absolute;
+	top: 1rem;
+	right: 0;}
+
+	#menue-oeffnen_2:target{display: flex;
+	flex-direction: column;
+	padding: 0.5rem;
+	background-color:rgba(216,224,43,1.00);
+	margin-right: 0.5rem;
+	color: #000;}
+}
+
+@media(max-width: 55rem){
+	#navigation a{white-space: nowrap;}
+	#navigation span{display:none;
+	font-size: 1rem;}	
+}
+
+
+/*########### CONTENT ###############*/
+
+.content{/*background-color: #016F78;*/
+width: 100%;
+text-align: center;
+float: left;
+margin-top: 1rem;
+}
+
+.tittle{color: #5bc3b8;
+font-family: webkurs;
+font-size: 400%;
+font-weight: 500;
+}
+
+/*######## CONTENT STARTSEITE #######*/
+.imagen img{max-width: 100%;
+height: auto;
+}
+
+.flexbox{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;}
+
+#flagsList{margin: auto;
+margin-bottom: 3rem;
+width: 60%;
+}
+
+.flags{text-align: right;}
+
+.flags a img {width: 2.125rem;
+margin-right: 0.625rem;}
+
+.textFlags{font-size: 0.75rem;
+/*margin-left: 5px;*/
+text-align: left;
+text-transform: uppercase;
+color: #000000;}
+
+a{text-decoration: none;}
+
+.textFlags:hover{color:#5bc3b8;}
+
+/**############# FOOTER ###############*/
+
+.footer{background-color: #5bc3b8;
+clear: left;
+height: 5rem;
+text-align: center;}
+
+.listIcon {
+list-style: none;
+display: flex;
+justify-content: center;}
+
+.listIcon li {float: left;
+clear:none;}
+
+.listIcon li a{display: inline-block; 
+text-decoration: none;
+padding: 9px 10px;
+width: 100%;
+color: #ffffff;}
+
+.listIcon li img {
+margin-right: 10px;}
+
+a img{border: none;}
+
+#dat_uhr{padding-top: 0.5rem;
+color: #ffffff;}
+
+
+
+

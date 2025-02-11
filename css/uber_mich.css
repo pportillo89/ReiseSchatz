@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.one-time img{width: 100%;
+height: 37.5rem;}
+
+.text{width: 50%;
+float: left;
+padding: 1rem;
+margin-top: 16rem;}
+
+.photos{width: 50%;
+float: left;
+padding: 1.5625rem;}
+
+.photos img{width: 70%;
+height: auto;
+float: left;
+}
+
+@media(max-width: 55rem){
+	.photos{width: 100%;}         
+}

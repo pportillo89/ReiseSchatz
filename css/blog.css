@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*####Farbe definition#####*/
+/*
+	#f13e37 : rot
+	#d8e02b : hellesgrün
+	#5bc3b8 : aqua
+	#ffffff : weiss
+	#888888 : gris
+*/
+
+/*##########################BLOG###############################*/
+.blogbeitrag{background-color: rgba(243,214,19,0.00);
+padding-bottom: 1rem;	
+border-bottom:1px solid #d8e02b;
+margin-bottom: 1rem;
+}
+
+.blogbeitrag h3{border-bottom: 1px solid #d8e02b;}
+
+.rechts{float:right;}
+
+.blog_info{background-color: #dedede;
+margin-bottom: 1rem;
+float: left;
+width: 100%;}
+
+.blog_content{height: 11.25rem;
+text-align: justify;
+/*background-color: rgba(236,31,165,0.39);*/
+padding: 1rem;
+overflow: auto;
+margin-bottom: 1rem;
+}
+
+.blog_content img{width: 20%;
+height: auto;
+margin-right: 1rem;	
+float: left;
+}
+
+.blogbeitrag a{background-color: #5bc3b8;
+color:#fff;
+text-decoration: none;
+padding: 0.125rem 0.3125rem;
+border-radius: 3px;
+clear:both;
+margin-top: 1rem;
+}
+
+/*########################GENERELL##########################*/
+
+.blog{text-align: justify;
+hyphens: auto;
+margin-bottom: 1rem;}
+
+.right_text{width: 50%;
+float: left;
+padding-left: 1rem;
+}
+
+.left_photos{width: 50%;
+float: left;
+}
+
+.left_photos img{width: 90%;
+height: auto;
+float: left;
+padding: 1.5625rem;
+}
+
+h1, h3{color: #f13e37;}
+
+@media(max-width: 55rem){
+	.left_photos{width: 100%;}
+}
+
+.imagenMain img{max-width: 100%;
+	height: auto;
+}
